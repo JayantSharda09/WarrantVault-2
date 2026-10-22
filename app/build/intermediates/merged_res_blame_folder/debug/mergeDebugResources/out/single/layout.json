@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/item_product.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/fragment_dashboard.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_main.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/fragment_product_list.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/fragment_product_list.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_register.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_login.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_add_product.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_add_product.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_invoice.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_invoice.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-mergeDebugResources-61:/layout/activity_product_details.xml",
+        "source": "com.example.warrantyvault.app-main-64:/layout/activity_product_details.xml"
+    }
+]

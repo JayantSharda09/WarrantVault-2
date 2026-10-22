@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDetailsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDetailsInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/btnViewInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Invoice"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
