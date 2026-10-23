@@ -28,6 +28,8 @@ id btnAdd
 id btnChooseInvoice
 id btnDashboard
 id btnDashboardAdd
+id btnDeleteProduct
+id btnEditProduct
 id btnListAdd
 id btnLogin
 id btnLogout

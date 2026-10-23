@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -31,5 +32,24 @@
             android:text="View Invoice"
             android:textAllCaps="false"
             android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnEditProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Product / Invoice"
+            android:textAllCaps="false"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnDeleteProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Product / Invoice"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#B3261E"
+            android:textColor="#FFFFFF" />
+
     </LinearLayout>
 </ScrollView>

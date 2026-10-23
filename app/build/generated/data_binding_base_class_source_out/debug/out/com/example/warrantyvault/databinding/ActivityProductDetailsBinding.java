@@ -21,6 +21,12 @@ public final class ActivityProductDetailsBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final Button btnDeleteProduct;
+
+  @NonNull
+  public final Button btnEditProduct;
+
+  @NonNull
   public final Button btnViewInvoice;
 
   @NonNull
@@ -30,9 +36,12 @@ public final class ActivityProductDetailsBinding implements ViewBinding {
   public final TextView tvDetailsName;
 
   private ActivityProductDetailsBinding(@NonNull ScrollView rootView,
+      @NonNull Button btnDeleteProduct, @NonNull Button btnEditProduct,
       @NonNull Button btnViewInvoice, @NonNull TextView tvDetailsInfo,
       @NonNull TextView tvDetailsName) {
     this.rootView = rootView;
+    this.btnDeleteProduct = btnDeleteProduct;
+    this.btnEditProduct = btnEditProduct;
     this.btnViewInvoice = btnViewInvoice;
     this.tvDetailsInfo = tvDetailsInfo;
     this.tvDetailsName = tvDetailsName;
@@ -65,6 +74,18 @@ public final class ActivityProductDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnDeleteProduct;
+      Button btnDeleteProduct = ViewBindings.findChildViewById(rootView, id);
+      if (btnDeleteProduct == null) {
+        break missingId;
+      }
+
+      id = R.id.btnEditProduct;
+      Button btnEditProduct = ViewBindings.findChildViewById(rootView, id);
+      if (btnEditProduct == null) {
+        break missingId;
+      }
+
       id = R.id.btnViewInvoice;
       Button btnViewInvoice = ViewBindings.findChildViewById(rootView, id);
       if (btnViewInvoice == null) {
@@ -83,8 +104,8 @@ public final class ActivityProductDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityProductDetailsBinding((ScrollView) rootView, btnViewInvoice, tvDetailsInfo,
-          tvDetailsName);
+      return new ActivityProductDetailsBinding((ScrollView) rootView, btnDeleteProduct,
+          btnEditProduct, btnViewInvoice, tvDetailsInfo, tvDetailsName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
