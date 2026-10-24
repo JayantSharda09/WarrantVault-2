@@ -78,13 +78,12 @@
             android:focusable="true"
             android:background="?attr/selectableItemBackground">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="▦"
-                android:textSize="25sp"
-                android:textColor="#8295B8"
-                android:includeFontPadding="false" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_dashboard"
+                android:contentDescription="Dashboard"
+                android:tint="#8295B8" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -108,13 +107,12 @@
             android:focusable="true"
             android:background="?attr/selectableItemBackground">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⬡"
-                android:textSize="25sp"
-                android:textColor="#8295B8"
-                android:includeFontPadding="false" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_products"
+                android:contentDescription="Products"
+                android:tint="#8295B8" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -138,13 +136,12 @@
             android:focusable="true"
             android:background="?attr/selectableItemBackground">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⊕"
-                android:textSize="29sp"
-                android:textColor="@color/primary"
-                android:includeFontPadding="false" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_add"
+                android:contentDescription="Add item"
+                android:tint="#8295B8"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,8 +149,8 @@
                 android:layout_marginTop="2dp"
                 android:text="Add Item"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:textColor="@color/primary"
+
+                android:textColor="#8295B8"
                 android:includeFontPadding="false" />
         </LinearLayout>
 
@@ -169,13 +166,12 @@
             android:focusable="true"
             android:background="?attr/selectableItemBackground">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⇥"
-                android:textSize="25sp"
-                android:textColor="#8295B8"
-                android:includeFontPadding="false" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_nav_logout"
+                android:contentDescription="Sign out"
+                android:tint="#8295B8" />
 
             <TextView
                 android:layout_width="wrap_content"

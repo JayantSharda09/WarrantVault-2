@@ -24,6 +24,10 @@ drawable bg_icon_green
 drawable bg_input
 drawable bg_product_initial
 drawable bg_upload_area
+drawable ic_nav_add
+drawable ic_nav_dashboard
+drawable ic_nav_logout
+drawable ic_nav_products
 id btnAdd
 id btnChooseInvoice
 id btnDashboard
